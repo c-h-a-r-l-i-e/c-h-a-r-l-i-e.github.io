@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App-container {
+  display: flex;
+  justify-content: center;
+}
+
+.App-center {
+  width: 75%;
+}
