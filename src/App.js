@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   const introduction = `Hi! I am a computer science master's graduate from the University of Cambridge.
             I'm interested in robotics, AI, web design and tech for good. My master's
-            project looked how we can better define safety for autonomous driving
-            and the impact of safety enforcement in reinforcement learning.`
+            project looked how we can better define safety for autonomous driving, alongside reinforcement
+            learning.`
 
 
   return (
