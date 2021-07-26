@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
         <div className="App-container">
           <div className="App-center">
             <p>{introduction}</p>
-            <p>This website is still under construction!</p>
+            <p>This website is a work in progress (helping me to learn <code>React</code>).</p>
           </div>
         </div>
       </header>
