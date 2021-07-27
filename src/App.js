@@ -50,7 +50,7 @@ function Title() {
     };
   });
   return (
-      <h1 className="App-typed"> {content} <span className="App-wrap"> </span></h1>
+      <h1 className="App-typed"> {content} <span></span></h1>
   )
 }
 

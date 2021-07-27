@@ -40,11 +40,7 @@
   width: 75%;
 }
 
-.App-typed {
-  white-space: nowrap;
-}
-
-.App-typed > .App-wrap{
+.App-typed{
   border-right: 0.06em solid #fff;
   animation: blinker 1s step-start infinite;
 }
