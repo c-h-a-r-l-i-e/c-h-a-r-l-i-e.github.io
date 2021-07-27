@@ -40,11 +40,11 @@
   width: 75%;
 }
 
-.App-typed{
+
+.App-typed > .App-cursor{
   border-right: 0.06em solid #fff;
   animation: blinker 1s step-start infinite;
 }
-
 @keyframes blinker {
   50% {
     border-right: 0.06em solid rgba(255, 255, 255, 0);
