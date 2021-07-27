@@ -15,7 +15,8 @@ class PlainText extends React.Component {
 
 function Title() {
   const leadText = "Hi! I'm Charlie Maclean. I like "
-  const likeList = ["programming.", "robotics.", "AI.", "web design.", "tech for good.", "Android development."]
+  const likeList = ["programming.", "robotics.", "AI.", "web design.", "tech for good.", 
+      "Android development.", "autonomous driving.", "app design."]
   const [content, setContent] = useState("");
   const [likeIdx, setLikeIdx] = useState(0);
   const [charIdx, setCharIdx] = useState(0);
@@ -55,11 +56,11 @@ function Title() {
 }
 
 function Introudction() {
-  const introduction = <p><p> Hi! I am a computer science master's graduate from the University of Cambridge. 
+  const introduction = <div><p> Hi! I am a computer science master's graduate from the University of Cambridge. 
             I'm interested in robotics, AI, web design and tech for good. My master's
             project looked how we can better define safety for autonomous driving with reinforcement
             learning. </p> 
-            <p>This website is a work in progress (helping me to learn <code>React</code>).</p></p>;
+            <p>This website is a work in progress (helping me to learn <code>React</code>).</p></div>;
 
   return (
     <PlainText content={introduction}></PlainText>
